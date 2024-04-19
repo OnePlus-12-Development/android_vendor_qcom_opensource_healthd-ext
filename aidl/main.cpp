@@ -30,7 +30,7 @@ class ChargerCallbackImpl : public ChargerCallback {
 static constexpr const char* gInstanceName = "default";
 static constexpr std::string_view gChargerArg{"--charger"};
 
-constexpr char *ucsiPSYName[]{
+constexpr const char *ucsiPSYName[]{
 	"ucsi-source-psy-soc:qcom,pmic_glink:qcom,ucsi1",
 	"ucsi-source-psy-soc:qcom,pmic_glink:qcom,ucsi2"
 };
